@@ -1,0 +1,221 @@
+:root {
+  --color-green-dark: #32401D; /* Verde Oscuro */
+  --color-green: #67733D; /* verde*/
+  --color-naranja-fuerte: #BF5E26;
+  --color-naranja-ligth: #D9985F;
+  --color-azul: #283845;
+  --color-blanco: #ffffff;
+  --color-gris-logo: rgb(102, 102, 102);
+  --color-gris-menu: #666666;
+  --color-negro: #000000;
+}
+
+@font-face {
+  font-family: 'Geometos';
+  src: url('../assets/fonts/Geometos.ttf') format('truetype');
+  /* Agrega aquí otros formatos de fuente si los tienes */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-blanco);
+  padding:0 5px;
+  box-sizing: border-box;
+}
+
+  .header h1 {
+    margin-bottom: 10px;
+  }
+  
+  .header nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    
+  
+  }
+  
+  .header nav a {
+    text-decoration: none;
+
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .logo img {
+    
+    height: 40px; /* Ajusta la altura del logo según sea necesario */
+    margin-right: 30px;
+    filter: drop-shadow(#909090 1px 1px 1px );
+    
+  }
+  
+  .logo span {
+    font-size: 16px;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Estilos del menú en modo responsive */
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      width: 150px;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    .menu a {
+      margin: 10px 0;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
+
+  .navigation {
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    
+  }
+  
+  .brand-name {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 1rem;
+    font-family: 'Geometos', sans-serif;
+  }
+  .logo-star{
+    color: var(--color-gris-logo);
+  }
+  .navigation-menu {
+    margin-left: auto;
+    
+
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+  }
+  
+  .navigation-menu li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--color-gris-menu);
+  }
+  
+  .hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--color-green-dark);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  
+  .hamburger:hover {
+    background-color: var(--color-green);
+  }
+  
+  @media screen and (max-width: 550px) {
+    .hamburger {
+      display: block;
+    }
+.header{
+
+  margin: 0;
+  padding: 0;
+}
+    .navigation-menu ul {
+
+      box-sizing: border-box;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 65px);
+      background-color: var(--color-green-dark);
+      display: none;
+    }
+  
+    .navigation-menu li {
+      text-align: center;
+      margin: 0;
+    }
+  
+    .navigation-menu li a {
+      color: black;
+      width: 100%;
+      padding: 1.5rem 0;
+      color: var(--color-gris-menu);
+    }
+  
+    .navigation-menu li:hover {
+      background-color: #eee;
+    }
+    .navigation nav {
+      top:60px
+    }
+    .navigation-menu.expanded ul {
+      display: block;
+    }
+  }
+  

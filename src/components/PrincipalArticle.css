@@ -1,0 +1,102 @@
+:root {
+    --color-green-dark: #32401D; /* Verde Oscuro */
+    --color-green: #67733D; /* verde*/
+    --color-naranja-fuerte: #BF5E26;
+    --color-naranja-ligth: #D9985F;
+    --color-azul: rgb(40, 56, 69);
+    --color-blanco: #ffffff;
+    --color-gris-logo: #333333;
+    --color-negro: #000000;
+  }
+  .contenedor-articulo-principal {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/manoariiba.webp');
+    object-fit: cover;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.contenedor-articulo-principal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(48, 60, 70, 0.5); /* Color con transparencia */
+    mix-blend-mode: multiply; /* Puedes ajustar el modo de mezcla según tus preferencias */
+}
+
+.contenido-articulo-principal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    padding: 100px;
+    z-index: 20;
+    position: absolute;
+    font-family: 'Inter';
+    width: 80%;
+
+}
+.tituloarticulo-principal{
+color: var(--color-blanco);
+font-size: 60px;
+width: 80%;
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+font-weight: 800;
+font-style: normal;
+font-family: "Inter", "Inter Placeholder", sans-serif;
+color: #ffffff;
+letter-spacing: -2px;
+line-height: 1.2;
+text-align: center;
+
+}
+
+.a{
+width: 390px;
+height: auto;
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+max-width: 100%;
+overflow: visible;
+z-index: 1;
+font-weight: 500;
+font-style: normal;
+font-family: "Inter", sans-serif;
+color: rgba(255, 255, 255, 0.6);
+font-size: 24px;
+
+text-align: center;
+position: absolute;
+
+}
+.contenido-articulo-principal p{
+width: 80%;
+height: auto;
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+overflow: visible;
+z-index: 1;
+font-weight: 500;
+font-style: normal;
+font-family: "Inter", sans-serif;
+color: rgba(255, 255, 255, 0.6);
+font-size: 40px;
+text-align: center;
+letter-spacing: 0.5px;
+line-height: 1.2;
+}
+
+.contenido-articulo-principal p span{
+
+    background-color: var(--color-green);
+}

@@ -1,0 +1,151 @@
+:root {
+    --color-green-dark: #32401d81; /* Verde Oscuro */
+    --color-green: #67733D; /* verde*/
+    --color-naranja-fuerte: #BF5E26;
+    --color-naranja-ligth: #D9985F;
+    --color-azul: rgb(40, 56, 69);
+    --color-blanco: #ffffff;
+    --color-gris-logo: #333333;
+    --color-negro: #000000;
+  }
+  
+.secctionB{
+    width: 100%;
+    min-height: 100vh;
+    background-color:var(--color-naranja-ligth);
+    padding: 100px;
+    box-sizing: border-box;
+
+}
+
+.titulo-tipo-b{
+width: 100%;
+height: auto;
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+max-width: 1000px;
+overflow: visible;
+font-weight: 400;
+font-style: normal;
+font-family: "Staatliches", sans-serif;
+color: #000000;
+font-size: 4rem;
+letter-spacing: 0em;
+line-height: 1.2;
+text-align: left;
+margin-bottom: 100px;
+}
+
+.contenedorGaleria{
+    display: flex;
+    justify-content: center;
+}
+.galeria {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+  }
+  
+  .imagen-galeria {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .imagen-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .texto-superpuesto {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #32401dd4; /* Fondo semi-transparente para resaltar el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0; /* Hacemos que el texto esté oculto inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave para mostrar/ocultar el texto */
+  }
+
+  .imagen-galeria:hover .texto-superpuesto {
+    opacity: 1; /* Mostramos el texto al hacer hover en el div */
+  
+  }
+  
+  .texto-superpuesto h3 {
+    font-family: "Staatliches", sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+  }
+  
+  .texto-superpuesto p {
+    font-family:  "Inter";
+    text-align: left;
+    padding:  0 30px;
+  }
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    .secctionB{
+        padding: 20px;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Crea 3 columnas con igual ancho */
+        gap: 10px; /* Espacio entre las imágenes */
+    }
+}
+
+.mas{
+    margin-top: 20px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 20px 20px;
+    background-color: var(--color-naranja-fuerte);
+    color: var(--color-blanco);
+    font-family:  "Inter";
+    font-size: large;
+}
+
+.mas:hover{
+    background-color: var(--color-naranja-ligth);
+}
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .secctionB{
+        padding: 20px;
+    }
+    .titulo-tipo-b{
+        width: 100%;
+        font-size:3rem;
+        text-align: center;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Crea 3 columnas con igual ancho */
+        gap: 10px; /* Espacio entre las imágenes */
+    }
+}

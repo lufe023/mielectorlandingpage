@@ -1,0 +1,10 @@
+:root {
+  --color-green-dark: #32401D; /* Verde Oscuro */
+  --color-green: #67733D; /* verde*/
+  --color-naranja-fuerte: #BF5E26;
+  --color-naranja-ligth: #D9985F;
+  --color-azul: rgba(40, 56, 69, 0.8);
+  --color-blanco: #ffffff;
+  --color-gris-logo: #333333;
+  --color-negro: #000000;
+}
