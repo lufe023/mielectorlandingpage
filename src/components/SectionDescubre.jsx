@@ -46,10 +46,10 @@ const SectionDescubre = () => {
           </div>
         </div>
         <div className='imagen-galeria'>
-          <img src='../assets/JvU6mZ4YPVMW5y1SXidACblZ5Wo.webp' alt='Imagen 5' />
+          <img src='../assets/wheelchair-gecaadf7ac_640.jpg' alt='Imagen 5' />
           <div className='texto-superpuesto'>
             <h3>¿Alguien necesita transporte?</h3>
-            <p>Ten un reporte completo de cuantas personas necesitan ayuda para ir a votar</p>
+            <p>Ten un reporte completo de cuales personas necesitan ayuda para ir a votar</p>
             <button className='mas'>Saber más</button>
           </div>
         </div>

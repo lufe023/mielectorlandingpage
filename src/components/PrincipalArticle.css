@@ -18,6 +18,13 @@
     position: relative;
 }
 
+.contenido-articulo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .contenedor-articulo-principal::before {
     content: "";
     position: absolute;
@@ -32,9 +39,10 @@
 .contenido-articulo-principal{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-
+    
     padding: 100px;
     z-index: 20;
     position: absolute;
@@ -99,4 +107,81 @@ line-height: 1.2;
 .contenido-articulo-principal p span{
 
     background-color: var(--color-green);
+}
+
+@media screen and (min-width: 800px) /* monitor normal */ {
+    .contenedor-articulo-principal::before{
+        min-height: 115vh;
+    }
+    .contenedor-articulo-principal{
+        min-height: 115vh;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    } 
+
+    /* .tituloarticulo-principal{
+        color: var(--color-blanco);
+        font-size: 40px;
+        width: 100%;
+        font-weight: 800;
+        } */
+
+    .contenido-articulo-principal{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 10px;
+    }
+  }
+
+
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    .tituloarticulo-principal{
+    font-size: 40px;
+    }
+
+    .contenido-articulo-principal p {
+        font-size: 20px;
+        
+    }
+    .contenedor-articulo-principal::before{
+        min-height: 150vh;
+    }
+
+    .contenedor-articulo-principal{
+        min-height: 150vh;
+    }
+  }
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+
+    
+    .contenedor-articulo-principal{
+        min-height: 150vh;
+    }
+
+    .contenedor-articulo-principal::before {
+        min-height: 150vh;
+        
+     
+    }
+
+    .contenido-articulo-principal{
+        padding: 50px 0px;
+        width: 100%;
+        
+    }
+    .tituloarticulo-principal{
+        color: var(--color-blanco);
+        font-size: 40px;
+        width: 80%;
+        font-weight: 800;
+        }
+
+        .contenido-articulo-principal p{
+            font-size: 30px;
+            
+        }
+
 }

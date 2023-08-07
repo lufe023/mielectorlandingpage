@@ -14,7 +14,7 @@ const MainSection = () => {
         </div>
         <div className='columna2'>
         <h1 className='title'><span>Mi</span>elector</h1>
-        <div className='frase'>Lo que tiene mi campaña</div>
+        <div className='frase'>Lo que necesita mi campaña</div>
         <div>
           <form >
             <input className='callme callme-input' type='text' placeholder='Pon tu numero y te llamamos'/>

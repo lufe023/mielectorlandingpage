@@ -133,6 +133,26 @@ margin-bottom: 100px;
 .mas:hover{
     background-color: var(--color-naranja-ligth);
 }
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .galeria {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .galeria {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+
 @media screen and (max-width: 390px) and (max-height: 844px) {
     .secctionB{
         padding: 20px;

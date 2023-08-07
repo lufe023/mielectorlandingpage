@@ -1,5 +1,5 @@
 :root {
-  --color-green-dark: #32401D; /* Verde Oscuro */
+  --color-green-dark: #32401D; 
   --color-green: #67733D; /* verde*/
   --color-naranja-fuerte: #BF5E26;
   --color-naranja-ligth: #D9985F;
@@ -184,7 +184,6 @@
   padding: 0;
 }
     .navigation-menu ul {
-
       box-sizing: border-box;
       flex-direction: column;
       position: absolute;
@@ -192,7 +191,7 @@
       left: 0;
       width: 100%;
       height: calc(100vh - 65px);
-      background-color: var(--color-green-dark);
+      background-color: var(--color-naranja-ligth);
       display: none;
     }
   
