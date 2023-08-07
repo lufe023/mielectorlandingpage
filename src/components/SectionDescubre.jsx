@@ -54,7 +54,7 @@ const SectionDescubre = () => {
           </div>
         </div>
         <div className='imagen-galeria'>
-          <img src='../assets/hirUh0JklDDJkavlroxsGh4FUo.webp' alt='Imagen 6' />
+          <img src='../assets/graficos.webp' alt='Imagen 6' />
           <div className='texto-superpuesto'>
             <h3>Aquí no adivinamos</h3>
             <p>Todo lo que se nececita consolidado y administrado desde tu propio centro de computo</p>
