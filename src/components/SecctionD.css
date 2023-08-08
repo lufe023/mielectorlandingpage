@@ -1,0 +1,85 @@
+.secctionD{
+box-sizing: border-box;
+width: 100%;
+height: min-content;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px;
+background-color: #606c38;
+overflow: hidden;
+align-content: center;
+flex-wrap: wrap;
+gap: 60;
+border-radius: 0px 0px 0px 0px;
+height: 400px;
+}
+
+.columnas{
+width: 100%;
+height: min-content;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+padding: 100px;
+color: white;
+gap: 60px;
+}
+
+.col{
+    width: 300px;
+
+}
+
+.col h4{
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+overflow: visible;
+font-weight: 700;
+font-style: normal;
+font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+color: #ffffff;
+font-size: 20px;
+letter-spacing: -0.025em;
+line-height: 1.5;
+text-align: left;
+
+}
+.col p{
+    
+font-weight: 400;
+font-style: normal;
+font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+color: #ffffff;
+font-size: 16px;
+letter-spacing: 0em;
+line-height: 1.5;
+text-align: left;
+}
+
+.col article{
+
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.feactures{
+width: 100%;
+height: auto;
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+max-width: 1000px;
+overflow: visible;
+font-weight: 400;
+font-style: normal;
+font-family: "Staatliches", sans-serif;
+color: #ffffff;
+font-size: 48px;
+letter-spacing: 0em;
+line-height: 1.2;
+text-align: left;
+}

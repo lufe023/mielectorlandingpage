@@ -1,7 +1,8 @@
 import './App.css'
-import SeccionC from './SeccionC'
-import SecctionA from './SecctionA'
-import SecctionB from './SecctionB'
+import SeccionC from './components/SeccionC'
+import SecctionA from './components/SecctionA'
+import SecctionB from './components/SecctionB'
+import SecctionD from './components/SecctionD'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import MainSection from './components/MainSection'
@@ -19,6 +20,7 @@ function App() {
     <SecctionA/>
     <SecctionB/>
     <SeccionC/>
+    <SecctionD/>
       <Footer/>
     </>
   )

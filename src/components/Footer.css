@@ -1,7 +1,49 @@
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px 100px 100px;
+  background-color: #606c38;
+  overflow: visible;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 60;
+  border-radius: 0px 0px 0px 0px;
   }
   
+  .footer h1 {
+    width: 100%;
+height: auto;
+white-space: pre-wrap;
+word-wrap: break-word;
+word-break: break-word;
+max-width: 800px;
+overflow: visible;
+font-weight: 400;
+font-style: normal;
+font-family: "Staatliches", sans-serif;
+color: #fefae0;
+font-size: 48px;
+letter-spacing: 0em;
+line-height: 1.2;
+text-align: center;
+  }
+
+  .advertisiment{
+    width: auto;
+height: auto;
+white-space: pre;
+overflow: visible;
+font-weight: 400;
+font-style: normal;
+font-family: "Space Grotesk", "Space Grotesk Placeholder", sans-serif;
+color: #fefae0;
+font-size: 16px;
+letter-spacing: 0em;
+line-height: 1.5;
+text-align: center;
+  }
