@@ -8,8 +8,6 @@ const SectionDescubre = () => {
         Descubre MiElector
       </h2>
       <div className="contenedorGaleria">
-
- 
       <div className='galeria'>
         <div className='imagen-galeria'>
           <img src='../assets/imgen gps.webp' alt='Imagen 1' />
@@ -58,9 +56,12 @@ const SectionDescubre = () => {
           <div className='texto-superpuesto'>
             <h3>Aquí no adivinamos</h3>
             <p>Todo lo que se nececita consolidado y administrado desde tu propio centro de computo</p>
+            <button className='mas'>Saber más</button>
           </div>
         </div>
       </div>
+
+      
       </div>
     </div>
   );

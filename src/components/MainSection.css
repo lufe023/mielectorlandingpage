@@ -15,48 +15,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height:100vh;
-    overflow: hidden;
-}
-
-
-
-  .capa-imagen{
+    min-height:100vh;
     background-image: url('../assets/reunion.webp');
     width:100%;
-    min-height: 100vh;
-    opacity: 1;
-    z-index: 2;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 0px 0px 0px 0px;
-    filter: grayscale(0.5);
-    }
-    .capa-imagen::before {
-      content: "";
-      position: absolute;
-      background-color: #0c365bc6;
-    mix-blend-mode:normal;
-      /* background-color: var(--color-azul); */
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      z-index: 2; /* Asegúrate de que este valor sea mayor que la z-index de .capa-imagen */
-      opacity: 1;
-      -webkit-filter: grayscale(0);
-filter: grayscale(0);
-  }
+}
+
+/* 
+.secciont-first-view::before{
+  backdrop-filter: grayscale(1);;
+  background-color: #0c365bc6;
+  content: "";
+mix-blend-mode:normal;
+min-height:100vh;
+  width: 100%;
+  z-index: 2; 
+  opacity: 1;
+} */
+
 .content{
-    width: 80%;
-    position: absolute;
+    width: 100%;
+    min-height: 100vh;
     z-index: 20;
     display: flex;
-    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: grayscale(1);;
+    background-color: #0c365bc6;
 }
 .title{
   text-transform: uppercase;
   width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   height: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -65,10 +56,9 @@ filter: grayscale(0);
   font-style: normal;
   font-family: "Staatliches", sans-serif;
   color: #ffffff;
-  font-size: 8.5rem;
+  font-size: 8rem;
   letter-spacing: 0em;
   line-height: 1.1;
-
 color: var(--color-blanco);
 }
 .title span{
@@ -77,6 +67,7 @@ color: #666666;
 .frase{
 text-transform: uppercase;
 width: 100%;
+margin-bottom: 50px;
 height: auto;
 white-space: pre-wrap;
 word-wrap: break-word;
@@ -108,18 +99,16 @@ width: 10%;
 }
 
   .callme{
-
-    padding: 20px 50px;
-    font-size: 0.9rem;
+    padding: 20px 30px;
     outline: none;
     border: solid 0px;
     font-size: 17px;
+
   }
 
   .callme-input{
     border-radius: 10px 0px 0px 10px ;
-    width: 200px;
-
+    min-width: 220px;
     
   }
 
@@ -130,51 +119,50 @@ width: 10%;
     color: var(--color-blanco);
     cursor: pointer;
     outline: none;
+    margin-bottom: 50px;
   }
 
   .callme-button:hover{
     background-color: var(--color-green-dark);
   }
-  @media screen and (min-width: 800px) {
-    .title {
-      font-size: 7.5rem; /* Ejemplo de cambio en el tamaño de fuente específico para el título */
-    }
-  }
-  @media screen and (max-width: 768px) and (max-height: 1024px) {
-    /* Agrega aquí los estilos que deseas aplicar cuando el ancho sea menor que 768 píxeles y la altura sea menor que 1024 píxeles */
-    /* Por ejemplo, ajustar tamaños de fuente, márgenes, etc. */
-    body {
-      font-size: 14px; /* Ejemplo de cambio en el tamaño de fuente */
-    }
   
-    .title {
-      font-size: 6.5rem; /* Ejemplo de cambio en el tamaño de fuente específico para el título */
+  @media screen and (max-width: 550px) {
+    .title{
+      width: 100%;
+
+      font-size: 5rem;
     }
 
-    .callme{
-      min-width: 100%;
-      box-sizing: border-box;
-    }
-    .callme-input{
-
-      border-radius: 10px 10px 0px 0px ;
-    }
-    .callme-button{
-  
-      border-radius: 0px 0px 10px 10px ;
-    }
-    /* Agrega aquí más estilos según tus necesidades */
-  }
-
-  @media screen and (max-width: 844px) and (max-height: 390px) {
-    .title {
-      font-size: 5rem; /* Ejemplo de cambio en el tamaño de fuente específico para el título */
-    }
-  }
-
-  @media screen and (max-width: 390px) and (max-height: 844px) {
-    .title {
-      font-size: 5rem; /* Ejemplo de cambio en el tamaño de fuente específico para el título */
-    }
+    .frase{
+    
+      margin-bottom: 20px;
+      height: auto;
+      font-size: 3rem;
+      letter-spacing: 0em;
+      line-height: 1.1;
+      }
    
+
+  .callme{
+    font-size: 15px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    min-width: 250px;
   }
+
+  .callme-input{
+    border-radius: 10px 10px 0px 0px ;
+  }
+
+  .callme-button{
+    border-radius: 0px 00px 10px 10px ;
+    background-color: var(--color-green);
+    color: var(--color-blanco);
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 50px;
+    border: solid 0px;
+  }
+
+}

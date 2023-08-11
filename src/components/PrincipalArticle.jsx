@@ -11,7 +11,7 @@ const PrincipalArticle = () => {
     Tienes más de 200 personas llenando formularios como locos. 
     Formularios que se pierden en un rincon, <span>dale poder a tu ejercito</span> con el modulo Mi gente.  
     </p>
-    <button className='mas princpalMas'>SABER MÁS</button>
+    <button className='princpalMas'>SABER MÁS</button>
     </div> 
 </div>
 )

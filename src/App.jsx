@@ -9,6 +9,11 @@ import MainSection from './components/MainSection'
 import PrincipalArticle from './components/PrincipalArticle'
 import SectionDescubre from './components/SectionDescubre'
 import './components/utils/reset.css'
+import ReactGA from 'react-ga';
+  const TRACKING_ID = "G-GFM00FG9CE"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
+
+  
 function App() {
 
   return (
@@ -18,10 +23,11 @@ function App() {
     <SectionDescubre/>
     <PrincipalArticle/>
     <SecctionA/>
+    {/*
     <SecctionB/>
     <SeccionC/>
-    <SecctionD/>
-      <Footer/>
+    <SecctionD/> 
+    <Footer/>*/}
     </>
   )
 }
