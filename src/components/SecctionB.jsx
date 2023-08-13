@@ -14,7 +14,7 @@ const SecctionB = () => {
     <p>El quipo de altamira debe visitar la familia Pérez, el lider lo asgina como tarea a su equipo y listo! </p>
     </p>
     <div className='botones'>
-        <button className='btn dark'>Contactar</button> <button className='btn default'>Leer Más</button>
+        <a className='btn dark' href='tel:+1849-471-8594'>Contactar</a> <button className='btn default'>Leer Más</button>
     </div>
 
     </div>

@@ -23,11 +23,10 @@ function App() {
     <SectionDescubre/>
     <PrincipalArticle/>
     <SecctionA/>
-    {/*
     <SecctionB/>
     <SeccionC/>
     <SecctionD/> 
-    <Footer/>*/}
+    <Footer/>
     </>
   )
 }

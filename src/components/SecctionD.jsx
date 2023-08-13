@@ -4,46 +4,46 @@ const SecctionD = () => {
   return (
     <div className='secction secctionD'>
         <h2 className='feactures'>Caracteristicas</h2>
+        
         <div className="columnas">
         <div className="col">
             <article>
-            <h4>Powerful GPS tracking</h4>
-            <p>Plan and monitor your polling stations seamlessly.</p>
+            <h4>Potente seguimiento GPS</h4>
+            <p>Planifique y controle sus mesas electorales sin problemas.</p>
             </article>
 
             <article>
-            <h4>Real-Time Surveys</h4>
-            <p>Stay informed with live survey data analysis.</p>
+            <h4>Boca de urnaen tiempo real</h4>
+            <p>Manténgase informado con el análisis de datos de encuestas en vivo en boca de urna.</p>
             </article>
         </div>
         
         <div className="col">
             <article>
-            <h4>Accessible Solutions</h4>
-            <p>Empower individuals with disabilities to participate.</p>
+            <h4>Soluciones Accesibles</h4>
+            <p>La Herramienta está diseñada para que cualquiera pueda usarla</p>
             </article>
 
             <article>
-            <h4>Unified Communication</h4>
-            <p>Manage your teams and voters with ease.</p>
+            <h4>Comunicaciones unificadas</h4>
+            <p>Administre sus equipos y votantes con facilidad.</p>
             </article>
         </div>
 
         <div className="col">
             <article>
-            <h4>Community Leadership</h4>
-            <p>Equip community leaders to inspire others.</p>
+            <h4>Empodere el Liderazgo Comunitario</h4>
+            <p>Equipe a los líderes de la comunidad para inspirar a otros.</p>
             </article>
 
             <article>
-            <h4>Election Security</h4>
-            <p>Ensure fair and safe elections for all.</p>
+            <h4>Seguridad Electoral</h4>
+            <p>Garantizar elecciones justas y seguras para todos.</p>
             </article>
         </div>
 
-
         </div>
-
+    
     </div>
   )
 }

@@ -9,7 +9,6 @@
   --color-negro: #000000;
 }
 
-
 .btn{
   outline: none;
   padding: 10px 20px;
@@ -18,11 +17,12 @@
   overflow: visible;
   border-radius: 8px;
   font-family: "Inter", "Inter Placeholder", sans-serif;
-  cursor: pointer;
+  cursor:pointer;
   transition: scale 0.3s ease;
 }
 
 .btn:hover{
+  background-color: var(--color-green-dark);
   scale: 0.9;
 }
 
