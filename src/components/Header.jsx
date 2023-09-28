@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from '../assets/MIELECTOR-Isotipo.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   
@@ -43,11 +44,15 @@ const Header = () => {
         }
       >
         <ul>
+
           <li>
-            <a href="/about">About</a>
+            <Link to="/privacity">Política</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="https://www.instagram.com/mielectorapp/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/mi-elector">Linkedin</a>
           </li>
         </ul>
       </div>

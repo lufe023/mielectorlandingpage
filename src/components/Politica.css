@@ -1,0 +1,10 @@
+#politicaParrafo {
+    /* Estilos para la clase politicaParrafo dentro de cuerpo-articulo */
+    color: #333; /* Ejemplo de estilo */
+    font-size: 16px; /* Ejemplo de estilo */
+    padding: 10px 0px;
+  }
+
+b{
+    font-weight: 700;
+}
