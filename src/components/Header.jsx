@@ -44,7 +44,9 @@ const Header = () => {
         }
       >
         <ul>
-
+        <li>
+            <Link to="/">Inicio</Link>
+          </li>
           <li>
             <Link to="/privacity">Política</Link>
           </li>
