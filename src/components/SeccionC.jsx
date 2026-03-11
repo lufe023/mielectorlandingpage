@@ -12,7 +12,7 @@ const SeccionC = () => {
     <h4>Crea Encuestas</h4>
     <p>Crea Encuestas semanales, mensuales o trimestrales</p>
     <div className='botones'>
-        <a href='https://www.instagram.com/mielectorapp' className='btn dark'>Leer Más</a>
+        <a href="https://www.instagram.com/mielectorapp" className='btn dark'>Leer Más</a>
     </div>
 </article>
 
@@ -24,7 +24,7 @@ const SeccionC = () => {
     <p>Obtenga resultados reales a boca de urna gracias a mi elector</p>
    
     <div className='botones'>
-        <a href='https://www.instagram.com/mielectorapp' className='btn dark'>Leer Más</a>
+        <a href="https://www.instagram.com/mielectorapp" className='btn dark'>Leer Más</a>
     </div>
 </article>
 
@@ -35,7 +35,7 @@ const SeccionC = () => {
     <h4>Concurrencia</h4>
     <p>Planifique y controle sus mesas electorales, que nadie se quede sin votar.</p>
     <div className='botones'>
-        <a href='https://www.instagram.com/mielectorapp' className='btn dark'>Leer Más</a>
+        <a href="https://www.instagram.com/mielectorapp" className='btn dark'>Leer Más</a>
     </div>
 </article>
     </div>

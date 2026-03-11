@@ -16,7 +16,7 @@ const SectionDescubre = () => {
             <p>
                 Puedes encontrar persona usando el gps, o el censor de proximidad
                 </p>
-                <a  href='https://www.instagram.com/mielectorapp'  className='mas'>Saber más</a>
+                <a  href="https://www.instagram.com/mielectorapp"  className='mas'>Saber más</a>
           </div>
         </div>
         <div className='imagen-galeria'>
@@ -24,7 +24,7 @@ const SectionDescubre = () => {
           <div className='texto-superpuesto'>
             <h3>¿Seguro que son tuyos?</h3>
             <p>Asegura la participación de la gente en tus actividades.</p>
-            <a  href='https://www.instagram.com/mielectorapp'  className='mas'>Saber más</a>
+            <a  href="https://www.instagram.com/mielectorapp"  className='mas'>Saber más</a>
           </div>
         </div>
         <div className='imagen-galeria'>
@@ -32,7 +32,7 @@ const SectionDescubre = () => {
           <div className='texto-superpuesto'>
             <h3>Orquesta tu equipo</h3>
             <p>100% de equipo organizado, todos a la victoria.</p>
-            <a   href='https://www.instagram.com/mielectorapp'  className='mas'>Saber más</a>
+            <a   href="https://www.instagram.com/mielectorapp"  className='mas'>Saber más</a>
           </div>
         </div>
         <div className='imagen-galeria'>
@@ -40,7 +40,7 @@ const SectionDescubre = () => {
           <div className='texto-superpuesto'>
             <h3>Las Mediciones son importantes</h3>
             <p>Obten estadística, semanales, mensuales o trimestrales </p>
-            <a  href='https://www.instagram.com/mielectorapp'  className='mas'>Saber más</a>
+            <a  href="https://www.instagram.com/mielectorapp"  className='mas'>Saber más</a>
           </div>
         </div>
         <div className='imagen-galeria'>
@@ -48,7 +48,7 @@ const SectionDescubre = () => {
           <div className='texto-superpuesto'>
             <h3>¿Alguien necesita transporte?</h3>
             <p>Ten un reporte completo de cuales personas necesitan ayuda para ir a votar</p>
-            <a  href='https://www.instagram.com/mielectorapp'  className='mas'>Saber más</a>
+            <a  href="https://www.instagram.com/mielectorapp"  className='mas'>Saber más</a>
           </div>
         </div>
         <div className='imagen-galeria'>
@@ -56,7 +56,7 @@ const SectionDescubre = () => {
           <div className='texto-superpuesto'>
             <h3>Aquí no adivinamos</h3>
             <p>Todo lo que se nececita consolidado y administrado desde tu propio centro de computo</p>
-            <a  href='https://www.instagram.com/mielectorapp'  className='mas'>Saber más</a>
+            <a  href="https://www.instagram.com/mielectorapp"  className='mas'>Saber más</a>
           </div>
         </div>
       </div>
