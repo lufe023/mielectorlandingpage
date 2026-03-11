@@ -10,8 +10,8 @@ const SecctionA = () => {
     </p>
 
     <div className='botones'>
-        <a className='btn dark' href='tel:+1849-471-8594'>Contactar</a>
-        <button className='btn default'>Leer Más</button>
+        <a className='btn dark' href='tel:+18092299444>Contactar</a>
+        <a  href='https://www.instagram.com/mielectorapp' className='btn default'>Leer Más</a>
     </div>
 
     </div>
@@ -28,7 +28,7 @@ const SecctionA = () => {
     <h3>Mide a cada uno</h3>
     <p>El modulo Teams, te permite medir a cada uno de los integrantes, dar un seguimiento adecuado y saber que están haciendo.</p>
     <div className='botones'>
-        <a className='btn dark' href='tel:+1849-471-8594'>Contactar</a> <button className='btn default'>Leer Más</button>
+        <a className='btn dark' href='tel:+18092299444'>Contactar</a> <a  href='https://www.instagram.com/mielectorapp' className='btn default'>Leer Más</a>
     </div>
     </div>
 
@@ -42,7 +42,7 @@ const SecctionA = () => {
     <h3>Fortalece</h3>
     <p>Con el modulo Teams podras medir mas de cerca el resultado de cada equipo y de cada quien en el equipo</p>
     <div className='botones'>
-        <a className='btn dark' href='tel:+1849-471-8594'>Contactar</a> <button className='btn default'>Leer Más</button>
+        <a className='btn dark' href='tel:+18092299444'>Contactar</a> <a  href='https://www.instagram.com/mielectorapp' className='btn default'>Leer Más</a>
     </div>
     </div>
 
