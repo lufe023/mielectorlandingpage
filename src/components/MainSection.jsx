@@ -15,7 +15,7 @@ const MainSection = () => {
         <div>
 
           <form  action="https://formspree.io/f/xrgwpbnd" method="POST">
-            <input className='callme callme-input' type='text' placeholder='Pon tu numero y te llamamos' name="telephone"/>
+            <input className='callme callme-input' type='text' placeholder='Coloca tu número y te llamamos' name="telephone"/>
             <button className='callme callme-button' type="submit">Enviar</button>
           </form>
         </div>
